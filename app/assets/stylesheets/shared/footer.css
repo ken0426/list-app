@@ -1,0 +1,17 @@
+.fast-footer{
+  width: 100%;
+  height: 60px;
+  background-color: #17769A;
+  opacity: 61%;
+}
+
+.footer-box{
+  text-align: center;
+  font-size: 7px;
+  height: 55px;
+  color: #A0A0A0;
+}
+
+.footer-list{
+  margin: 5px 0;
+}

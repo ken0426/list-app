@@ -1,0 +1,37 @@
+<%= render "shared/header" %>
+
+<div class='main'>
+
+  <h1 class='main-center-logo' id='aaaaaa'>Stack up</h1>
+
+<%# もしログインしていなければ表示する %>
+  <%# <div class='account'>
+    <h1 class='account-logo'>Account</h1>
+    <ul class='account-area'>
+      <li class='account-btn'>Login</li>
+      <li class='account-btn'>Sign up</li>
+    </ul>
+  </div> %>
+  <%# もしログインしていなければ表示する %>
+
+
+<%# もしログインしていれば表示する %>
+  <div class='form'>
+    <div class='text-area'>
+      <input type="text" class="text-item" id="text" name="text" placeholder="テキストを入力">
+      <input type="button" class="btn-item" id="btn" value="タスクを作る">
+    </div>
+
+    <ul class='text-list' id='text-list'>
+      <button class='done' id='done'>完了</button>
+      <li class='answer-list' id='list'><li>
+    </ul>
+
+    <div class='sumbit-btn'>
+      <input type="button" class="btn-subit" id="sumbit-btn" value="1日のタスク完了">
+    </div>
+  </div>
+<%# もしログインしていれば表示する %>
+</div>
+
+<%= render "shared/footer" %>
